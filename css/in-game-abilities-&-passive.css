@@ -1,0 +1,167 @@
+.header {font-family: "Lucida Console", "Courier New", monospace, bold;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  height: 200px;
+  position: relative; 
+  top: 100px;}
+
+body {margin:0;}
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: rgb(78, 120, 238);
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        
+        li {
+          float: right;
+        }
+        
+        li a {
+          display: block;
+          color: rgb(255, 255, 255);
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-family: "Lucida Console", "Courier New", monospace
+
+        }
+        
+        li a:hover {
+          background-color: rgb(177, 15, 218);
+        }
+        
+        .active {
+          background-color: #0e0868;
+        }
+
+
+        .h1 {font-family: Arial, Helvetica, sans-serif;
+             font-weight: bold;
+             font-size: 30px;
+             text-align: center;
+             height: 100px;}
+
+        .h2 {font-family: Arial, Helvetica, sans-serif;
+             font-weight: bold;
+             font-size: 20px;
+             text-align: center;
+             height: 5px}
+
+        .h3 {font-family: Arial, Helvetica, sans-serif;
+             font-weight: bold;
+             font-size: 30px;
+             text-align: center;
+             height: 100px}
+
+        .section1 {font-family: Arial, Helvetica, sans-serif;
+                   font-size: 1em;
+                   text-align: center;
+                   font-weight: bold;
+                  }
+        .height {height: 33em;}
+
+      video{
+        margin: auto;
+        display: block;
+      }
+
+
+   .p1 {
+        vertical-align: text-top;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .description1{
+        vertical-align: text-bottom;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 1em;
+        margin: auto;
+        text-align: center;
+    }
+
+    .p2 {
+        vertical-align: text-top;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .description2 {
+        vertical-align: text-bottom;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        border: transparent;
+        padding: 0px;
+        width: 560px; 
+        height: 100px;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .p3 {
+        vertical-align: text-top;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .description3 {
+        vertical-align: text-bottom;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        border: transparent;
+        padding: 0px;
+        width: 560px; 
+        height: 100px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .p4 {
+        vertical-align: text-top;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .description4 {
+        vertical-align: text-bottom;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        border: transparent;
+        padding: 0px;
+        width: 560px; 
+        height: 100px;
+        text-align: center;
+        margin: auto;
+    }
+  
+    .videogrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 100px;
+    }
+
+    body{
+      background-image: url(../image/homepage-background.jpeg);
+      background-size: 7%;
+    }
+    
