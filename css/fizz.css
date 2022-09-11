@@ -77,11 +77,9 @@ body {
   background-size: 125%;
 }
 
-@media only screen and (max-width: 667px) {
-  html {
-        width: 100%;
-        padding: 5px;
-        margin: 0;
-    }
+@media screen, (min-width: 300px) and (min-height: 150px) {
 }
+        
+    
+
 
